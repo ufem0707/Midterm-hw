@@ -1,0 +1,135 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.bball,.bbtest{
+	background-color: rgb(255, 223, 241);	
+}
+.all,.test,.res{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.all h1{
+	text-align: center;
+	color: rgb(255, 30, 124);
+}
+.all img,.test img{
+	display: block;
+	margin: 0 auto;
+}
+.all p{
+	padding: 10px 100px;
+	color: #1E90FF;
+	font-size: 17px;
+	font-family: "微软雅黑";
+	text-indent: 2em;
+}
+a{
+	text-decoration: none;
+}
+.all button,.res button{
+	color: white;
+	font-size: 16px;
+	width: 150px;
+	height: 40px;
+	border: none;
+	cursor: pointer; 
+}
+.all button{
+	background-color: rgb(245, 141, 212);
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.res button{
+	float: right;
+	margin-top: 90px;
+}
+
+
+.test h2{
+	text-align: center;
+	color: lightskyblue;
+	margin-bottom: 40px;
+}
+.test p{
+	color: rgb(30,144,210);
+	font-size: 20px;
+	font-family: "微软雅黑";
+	padding-left: 200px;
+}
+.test .test-cho{
+	margin-top: 50px;
+	margin-left: 210px;
+}
+.test .test-cho a{
+	text-decoration: none;
+	display: block;
+	color: rgb(30,144,210);
+	width: 580.5px;
+	height: 35px;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+}
+.test .test-cho a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.test .test-cho .test-cho1,.test .test-cho .test-cho3{
+	border: 1px solid #ccc;
+}
+.test .test-cho .test-cho2{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+.res h2{
+	text-align: center;
+	margin-bottom: 100px;
+}			
+.res img{
+	float: left;
+	margin-top: 30px;
+	margin-right: 80px;
+}
+.res .res-ack{
+	margin-top: 120px;
+}
+.res p,.res i{
+	font-size: 18px;
+	font-family: "微软雅黑";	
+}
+.res i{
+	font-style: normal;
+	font-weight: bold;
+}
+.res p{
+	text-indent: 2em;
+	line-height: 30px;
+}
+#question {
+    text-align: center; 
+    margin-top: 30px;
+  }
+  
+#options {
+text-align: center; 
+}
+#startButton {
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 10px;
+    width: 150px; 
+    height: 40px; 
+    font-size: 16px;
+    background-color:rgb(255, 214, 242); 
+    color: rgb(255, 111, 190);
+  }
+#image{
+	width: 600px; 
+    height: 350px; 
+}
