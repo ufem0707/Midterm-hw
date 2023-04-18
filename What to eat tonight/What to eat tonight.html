@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>What to eat tonight?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div class="doors">
+            <div class="door"  style="visibility: hidden;">
+                <div class="boxes">
+                    <div class="box">?</div>
+                </div>
+            </div>
+
+            <div class="door" >
+                <div class="boxes">
+                    <div class="box">?</div>
+                </div>
+            </div>
+
+            <div class="door"  style="visibility: hidden;">
+                <div class="boxes">
+                    <div class="box">?</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="spinner">Spin</button>
+            <button id="reseter">Reset</button>
+        </div>
+        <div class = out id="result"></div> <!-- 新增用來顯示結果的區域 -->
+    </div>
+    <script src="//unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+</body>
+</html>
